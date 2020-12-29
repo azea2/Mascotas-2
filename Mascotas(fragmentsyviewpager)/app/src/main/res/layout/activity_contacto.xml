@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contacto"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/Actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorAccent"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:logo="@drawable/ic_baseline_pets_24"
+        app:title="@string/titulo_contacto"
+        app:titleTextColor="@color/colorBlanco"
+        app:titleMarginStart="150dp">
+
+        <ImageButton
+            android:id="@+id/star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:src="@drawable/ic_baseline_stars_24"
+            android:background="@color/colorAccent"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+    android:id="@+id/etNombreCompleto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="@string/introducir_nombre"
+        android:textColor="@color/colorTextoInput"
+    android:textSize="20sp"
+    android:layout_gravity="center_horizontal"
+    />
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/correo"
+        android:textColor="@color/colorTextoInput"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/etComentarios"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/comentarios"
+        android:textColor="@color/colorTextoInput"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        android:id="@+id/btEnviarComentarios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorBlanco"
+        android:text="@string/boton_enviar_comentario"
+        android:layout_gravity="center_horizontal"
+        />
+
+</LinearLayout>

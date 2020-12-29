@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Mascotas</string>
+    <string name="pnombre">Nombre</string>
+    <string name="lista_mascotas">Mascotas</string>
+    <string name="mascotas_favoritas">Mascotas Favoritas</string>
+    <string name="contacto">Contacto</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="introducir_nombre">Inserte su nombre</string>
+    <string name="correo">Inserte su correo</string>
+    <string name="comentarios">Inserte sus comentarios</string>
+    <string name="titulo_mascotas">Mascotas</string>
+    <string name="titulo_mascotas_favoritas">Mascotas Favoritas</string>
+    <string name="titulo_contacto">Contacto</string>
+    <string name="boton_enviar_comentario">Enviar Comentario</string>
+    <string name="descripcion">Esta app esta siendo desarrollada por David como parte del programa especializado en android ¡Saludos! :)</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

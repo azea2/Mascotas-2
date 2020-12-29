@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <!--PRIMERO CREO UN CONTEXTO EN RES TIPO MENU-->
+
+    <!--
+    <item
+        android:title="star"
+        android:id="@+id/starclick"
+        android:icon="@drawable/ic_baseline_stars_24"
+        app:showAsAction="always">
+
+    </item> -->
+
+
+    <item
+        android:id="@+id/mAcercaDe"
+        android:title="@string/acerca_de"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+    </item>
+
+    <item
+        android:id="@+id/mContacto"
+        android:title="@string/contacto"
+        android:orderInCategory="101"
+        app:showAsAction="never">
+
+    </item>
+
+</menu>
